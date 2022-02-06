@@ -18,13 +18,4 @@ h1 {
   // anything else you would like to include
 `;
 
-const StyledBasicLayout = ({ children }: { children: any }) => {
-  return (
-    <>
-      <GlobalStyle />
-      {children}
-    </>
-  );
-};
-
-export default StyledBasicLayout;
+export default GlobalStyle;

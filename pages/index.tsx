@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import StyledBasicLayout from "layout/Basic";
+import StyledBasicLayout from "styles/StyledLayout";
 
 const Title = styled.h1`
   color: red;
