@@ -23,15 +23,20 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
-        color: ${appStyles.colors.indigo} !important; // the important is just to show that the style works!
+        color: ${appStyles.colors.indigo} !important;
     }
 
     @font-face {
-        src: url("../assets/fonts/Outfit.woff2") format("woff2"), url("../assets/fonts/Outfit.woff") format("woff"), url("../assets/fonts/Outfit.ttf") format("ttf") ;
+        src: url("/assets/fonts/Outfit-Regular.woff2") format("woff2"),url("../assets/fonts/Outfit-Regular.woff") format("woff"), url("../assets/fonts//Outfit-Regular.ttf") format("ttf") ;
         font-family: "Outfit";
+        font-weight: normal;
     }
 
-  // anything else you would like to include
+    @font-face {
+        src: url("/assets/fonts/Outfit-Bold.woff2") format("woff2"),url("../assets/fonts/Outfit-Bold.woff") format("woff"), url("../assets/fonts//Outfit-Bold.ttf") format("ttf") ;
+        font-family: "Outfit";
+        font-weight: bold;
+    }
 `;
 
 export default GlobalStyle;
