@@ -10,7 +10,7 @@ const Home = () => {
     <StyledBasicLayout>
       <div>
         <p>hello</p>
-        <Title>Title</Title>
+        <Title>Title test de titre un plus long</Title>
       </div>
     </StyledBasicLayout>
   );

@@ -1,19 +1,28 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  html {
-    box-sizing: border-box;
-  }
+    html {
+        box-sizing: border-box;
+    }
 
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
+    body {
+        font-family: 'Outfit';
+    }
 
-h1 {
-    color: yellow !important; // the important is just to show that the style works!
-}
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    h1 {
+        color: purple !important; // the important is just to show that the style works!
+    }
+
+    @font-face {
+        src: url("../assets/fonts/Outfit.woff2") format("woff2"), url("../assets/fonts/Outfit.woff") format("woff"), url("../assets/fonts/Outfit.ttf") format("ttf") ;
+        font-family: "Outfit";
+    }
 
   // anything else you would like to include
 `;
