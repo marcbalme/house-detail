@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import StyledBasicLayout from "layout/Basic";
+import StyledBasicLayout from "styles/StyledLayout";
 
 const Title = styled.h1`
   color: red;
@@ -10,7 +10,7 @@ const Home = () => {
     <StyledBasicLayout>
       <div>
         <p>hello</p>
-        <Title>Title</Title>
+        <Title>Title test de titre un plus long</Title>
       </div>
     </StyledBasicLayout>
   );
