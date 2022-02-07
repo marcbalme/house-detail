@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { appStyles } from "./appStyles";
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -6,7 +7,13 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        margin: 0;
+        padding: 0;
+        letter-spacing: ${appStyles.letterSpacing};
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         font-family: 'Outfit';
+        background: ${appStyles.colors.white};
     }
 
     *,
@@ -16,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
-        color: purple !important; // the important is just to show that the style works!
+        color: ${appStyles.colors.indigo} !important; // the important is just to show that the style works!
     }
 
     @font-face {

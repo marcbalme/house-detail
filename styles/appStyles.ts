@@ -2,13 +2,12 @@ import { TextSizetypes } from "../types/styles";
 
 export const appStyles = {
   colors: {
+    indigo: "#4F0B66",
+    champagne: "#EEDFD0",
+    charcoal: "#323E42",
+    blueGray: "#8B9FB0",
     white: "#FFFFFF",
     orange: "#FF4C29",
-    blueGray: "#334756",
-    mediumGray: "#787A91",
-    lighGray: "#EEEEEE",
-    darkGray: "#2C394B",
-    background: "#082032",
     black: "#000000",
   },
   letterSpacing: "0.3px",
